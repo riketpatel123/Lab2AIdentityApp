@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7BgGx/VMA0q1alplyiiUkQAAAAACAAAAAAADZgAAwAAAABAAAAA96q/ORnEULgFGABGZtnrqAAAAAASAAACgAAAAEAAAAFBkVH+RnKUCoZBTcAIM9QCAAAAAtmUX+c8iXcdqwxaTnG6mL+THKeP1Tt7EB2npD/I4cK6EoHLB7rJ5uf0/Z7DGKBpb663pBVSBXARbjsHNYUAlqT0V/vlAmjxPLlbrvIXCfpPKKl2P9YF9yMWGB6FGhp67mVwK6NzOdMlfFkwUp0EDcmdTc1w11NlaopHh9bl7Co0UAAAAScJlq+BU19ObOnHNrmymY9V6tQk=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:lab1bwebapiappdbserver.database.windows.net,1433%3bInitial Catalog=Lab1BWebApiApp_db%3bUser Id=MohawkAdmin%40lab1bwebapiappdbserver%3bPassword=Mohawk123!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab1BWebAPi.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:lab1bwebapiappdbserver.database.windows.net,1433%3bInitial Catalog=Lab1BWebApiApp_db%3bUser Id=MohawkAdmin%40lab1bwebapiappdbserver%3bPassword=Mohawk123!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

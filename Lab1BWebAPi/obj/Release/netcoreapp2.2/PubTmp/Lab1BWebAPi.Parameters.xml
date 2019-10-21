@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Lab1BWebApiApp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Lab1BWebAPi\\Lab1BWebAPi\\Lab1BWebAPi\\obj\\Release\\netcoreapp2\.2\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Lab1BWebAPi.Data.ApplicationDbContext" description="" value="Data Source=tcp:lab1bwebapiappdbserver.database.windows.net,1433;Initial Catalog=Lab1BWebApiApp_db;User Id=MohawkAdmin@lab1bwebapiappdbserver;Password=Mohawk123!" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Lab1BWebAPi\\Lab1BWebAPi\\Lab1BWebAPi\\obj\\Release\\netcoreapp2\.2\\PubTmp\\EFSQLScripts\\Lab1BWebAPi\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
